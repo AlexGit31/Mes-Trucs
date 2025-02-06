@@ -1,6 +1,3 @@
-/* Importation de la police */
-
-/* Importation de la police */
 body {
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
@@ -16,6 +13,8 @@ header {
   text-align: center;
   padding: 20px 0;
   font-size: 1.5em;
+  position: relative;
+  overflow: hidden;
 }
 
 h1 {
@@ -58,31 +57,6 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Formulaire de recherche */
-nav form {
-  display: flex;
-}
-
-nav input[type="search"] {
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-}
-
-nav input[type="submit"] {
-  background-color: #1b5e20;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  margin-left: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-nav input[type="submit"]:hover {
-  background-color: #145a32;
-}
-
 /* Bouton de changement de langue */
 .language-toggle {
   background-color: #ffffff;
@@ -102,7 +76,7 @@ nav input[type="submit"]:hover {
 
 /* Contenu principal */
 main {
-  display: flex;
+  flex-direction: row;
   max-width: 900px;
   margin: 20px auto;
   gap: 20px;
@@ -112,14 +86,16 @@ article {
   flex: 2;
   background: white;
   padding: 20px;
+  margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 aside {
-  flex: 1;
+  flex: 2;
   background: white;
   padding: 20px;
+  margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }

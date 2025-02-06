@@ -9,45 +9,46 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../code_css/style_CV.css" />
+    <script src="../code_js/script.js" defer></script>
   </head>
   <body>
     <!-- Voici notre en‑tête principale utilisée dans toutes les pages
           de notre site web -->
     <header>
-      <h1 class="main_header">Alexis Evaristo</h1>
+      <h1 class="main_header">
+        <span class="lettre_A_E">A</span>lexis
+        <span class="lettre_A_E">E</span>varisto
+      </h1>
     </header>
 
     <nav>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <a href="index.html"><span id="home0">Acceuil</span></a>
+        </li>
         <li><a href="cv.html">CV</a></li>
         <li><a href="projets.html">Projets</a></li>
         <li><a href="bibliographie.html">Bibliographie</a></li>
         <li><a href="loisirs.html">Loisirs</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-
-      <!-- Un formulaire de recherche est une autre façon de naviguer de
-            façon non‑linéaire dans un site. -->
-
-      <form>
-        <input type="search" name="q" placeholder="Rechercher" />
-        <input type="submit" value="Lancer !" />
-      </form>
+      <button class="language-toggle" onclick="toggleLanguage()">
+        <span id="language">🇬🇧Anglais</span>
+      </button>
     </nav>
-
     <!-- Ici nous mettons le contenu de la page -->
     <main>
       <!-- Il contient un article -->
       <article>
-        <h2>CV</h2>
+        <h2 id="cv1">CV</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
+          viverra nec consectetur ant
+          <span class="gg" id="couleur"> Bleue </span>hendrerit. Donec et mollis
+          dolor. Praesent et diam eget libero egestas mattis sit amet vitae
+          augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
         </p>
 
         <h3>Sous‑section</h3>
@@ -77,9 +78,29 @@
         </p>
       </article>
 
+      <article id="article2">
+        <h3>2024-2025</h3>
+        <p>
+          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
+          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
+          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
+          diam iaculis velit, is fringille sem nunc vet mi
+        </p>
+      </article>
+
+      <article id="article3">
+        <h3>2023-2024</h3>
+        <p>
+          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
+          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
+          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
+          diam iaculis velit, is fringille sem nunc vet mi
+        </p>
+      </article>
       <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
             principal -->
       <aside>
+        <!-- Ici on veut mettre une photo de moi !-->
         <h2>En relation</h2>
         <ul>
           <li><a href="#">Combien j'aime être près des rivages</a></li>
@@ -93,7 +114,7 @@
 
     <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
     <footer>
-      <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+      <p>©Copyright 2050 par Alexis Evaristo. Tous droits reversés.</p>
     </footer>
   </body>
 </html>

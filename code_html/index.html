@@ -17,12 +17,17 @@
     <!-- Voici notre en‑tête principale utilisée dans toutes les pages
           de notre site web -->
     <header>
-      <h1 class="main_header">Alexis Evaristo</h1>
+      <h1 class="main_header">
+        <span class="lettre_A_E">A</span>lexis
+        <span class="lettre_A_E">E</span>varisto
+      </h1>
     </header>
 
     <nav>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
+        <li>
+          <a href="index.html"><span id="home0">Acceuil</span></a>
+        </li>
         <li><a href="cv.html">CV</a></li>
         <li><a href="projets.html">Projets</a></li>
         <li><a href="bibliographie.html">Bibliographie</a></li>
@@ -30,14 +35,14 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <button class="language-toggle" onclick="toggleLanguage()">
-        🌍 <span id="language">Français</span>
+        <span id="language">🇬🇧Anglais</span>
       </button>
     </nav>
     <!-- Ici nous mettons le contenu de la page -->
     <main>
       <!-- Il contient un article -->
       <article>
-        <h2>Acceuil</h2>
+        <h2 id="home1">Acceuil</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
