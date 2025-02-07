@@ -10,6 +10,7 @@
       type="text/css"
     />
     <link rel="stylesheet" href="../code_css/style_loisirs.css" />
+    <script src="../code_js/script_loisirs.js" defer></script>
   </head>
   <body>
     <!-- Voici notre en‑tête principale utilisée dans toutes les pages
@@ -20,12 +21,12 @@
 
     <nav>
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="projets.html">Projets</a></li>
-        <li><a href="bibliographie.html">Bibliographie</a></li>
-        <li><a href="loisirs.html">Loisirs</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html" id="home0">Acceuil</a></li>
+        <li><a href="cv.html" id="cv0">CV</a></li>
+        <li><a href="projets.html" id="projets0">Projets</a></li>
+        <li><a href="bibliographie.html" id="biblio0">Bibliographie</a></li>
+        <li><a href="loisirs.html" id="loisirs0">Loisirs</a></li>
+        <li><a href="contact.html" id="contacts0">Contact</a></li>
       </ul>
 
       <!-- Un formulaire de recherche est une autre façon de naviguer de
@@ -39,17 +40,54 @@
     <main>
       <article id="article1">
         <h2>Photographie</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur anthendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-        </p>
+        <div id="container-photos">
+          <div id="row1">
+            <div>
+              <div id="image1" class="image"></div>
+              <p>Seoul-Nikon D80 sigma 200mm </p>
+            </div>
+            <div>
+              <div id="image2" class="image"></div>
+              <p>Seoul-Nikon D80 sigma 200mm</p>
+            </div>
+            <div>
+              <div id="image3" class="image"></div>
+              <p>Seoul-Nikon D80 sigma 200mm</p>
+            </div>
+          </div>
+          <div id="row2">
+            <div>
+              <div id="image4" class="image"></div>
+              <p>France Anglet-Fuji xt10 xf f1.2</p>
+            </div>
+            <div>
+              <div id="image5" class="image"></div>
+              <p>France Anglet-Fuji xt10 xf f1.2</p>
+            </div>
+            <div>
+              <div id="image6" class="image"></div>
+              <p>France Lille-Fuji xt10 xf f1.2</p>
+            </div>
+          </div>
+          <div id="row3">
+            <div>
+              <div id="image7" class="image"></div>
+              <p>France Lille-Fuji xt10 xf f1.2</p>
+            </div>
+            <div>
+              <div id="image8" class="image"></div>
+              <p>France Lille-Fuji xt10 xf f1.2</p>
+            </div>
+            <div>
+              <div id="image9" class="image"></div>
+              <p>France Lille-Fuji xt10 xf f1.2</p>
+            
+          </div>
+        </div>
       </article>
 
       <article id="article2">
-        <h2>NOEVIM</h2>
+        <h2>NEOVIM</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
           lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam

@@ -77,7 +77,6 @@ nav ul li a:hover {
 /* Contenu principal */
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   max-width: 900px;
   margin: 20px auto;
   gap: 20px;
@@ -89,6 +88,73 @@ article {
   margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#container-photos {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#container-photos p {
+  margin-left: 30px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#image1 {
+  background: url(./photos/seoul3.png) center/cover;
+}
+
+#image2 {
+  background: url(./photos/seoul4.png) center/cover;
+}
+
+#image3 {
+  background: url(./photos/seoul5.png) center/cover;
+}
+
+#image4 {
+  background: url(./photos/anglet.JPG) center/cover;
+}
+
+#image5 {
+  background: url(./photos/anglet2.JPG) center/cover;
+}
+#image6 {
+  background: url(./photos/nature1.JPG) center/cover;
+}
+
+#image7 {
+  background: url(./photos/nature2.JPG) center/cover;
+}
+
+#image8 {
+  background: url(./photos/nature3.JPG) center/cover;
+}
+
+#image9 {
+  background: url(./photos/nature4.JPG) center/cover;
 }
 
 /* Pied de page */
