@@ -129,7 +129,7 @@ aside {
   height: 200px;
   width: 200px;
   border: 1px solid #000;
-  border-radius: 10px;
+  border-radius: 5px;
   background: url(./photos/photo2.JPG) center/cover;
   align-items: center;
   padding: 20px;

@@ -157,6 +157,40 @@ article {
   background: url(./photos/nature4.JPG) center/cover;
 }
 
+#contener_article2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#article2_row1 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#photoNvim1 {
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background: url(./photos/nvim.png) center/cover;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#article2_row2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#photoNvim2 {
+  height: 100px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background: url(./photos/nvim2.png) center/cover;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
 /* Pied de page */
 footer {
   background-color: #2e7d32;
